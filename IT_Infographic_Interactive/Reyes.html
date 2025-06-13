@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REY249120 Entrustify - IT Infographic / Interactive</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="container title">
@@ -18,7 +19,7 @@
             <a href="#infographic">
             <div class="nav nav-infographic">
                 
-                    <img src="./open.png" alt="open symbol" style="max-width: 20px;min-height: 20px; object-fit: contain;"></img>
+                    <img src="./assets/open.png" alt="open symbol" style="max-width: 20px;min-height: 20px; object-fit: contain;"></img>
                     <h2>Infographic</h2>
                 </div>
                     
@@ -30,14 +31,14 @@
             <a href="#program">
             <div class="nav nav-program">
                 
-                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
+                    <img src="./assets/open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Entrustify Program</h2>
                 </div>
             </a>
             <a href="#presentations">
             <div class="nav nav-presentations">
                 
-                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
+                    <img src="./assets/open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Presentations</h2>
                 </div>
             </a>
@@ -47,7 +48,7 @@
             <a href="#specific-insider-threats">
             <div class="nav nav-insider-threats">
                 
-                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
+                    <img src="./assets/open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Specific Insider Threats</h2>
                 </div>
             </a>
@@ -63,7 +64,7 @@
             <h1>Entrustify</h1>
             <p>Together we're strengthening our work through better support and training and education on insider threats—a program called Entrustify.</p>
             <p>We will continue adding content to this interactive for you, so you can access resources and guidance any time. Experience videos, past presentations, and more to help you get Entrustified and continue playing a powerful role at Reyes Holdings.</p>
-            <img class="chevron" src="./chevron.png" style="max-width: 20px; min-height: 20px; object-fit: contain;" alt="Chevron">
+            <img class="chevron" src="./assets/chevron.png" style="max-width: 20px; min-height: 20px; object-fit: contain;" alt="Chevron">
         </div>
     </div>
     
@@ -84,10 +85,8 @@
             <h1>Learn more about specific insider threats</h1>
             <p>with this engaging video series:</p>
         </div>
-        <div class="col-3">
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="video-container">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1086172626?h=fe089bab0f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="REYES_Entrustify_V3-5"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
 
     </div>
@@ -97,274 +96,39 @@
             <h1>Check out this infographic,</h1>
             <p>which provides helpful information on what insider threats are.</p>
         </div>
-        <img src="./1749788099696-8a221c51-0ecd-46f2-b45d-62f8fb1e0b5c_1.png" alt="">
+        <img src="./assets/REY233051 Insider Threats Ph1_V3.png" alt="">
 
     </div>
     <div class="container" id="presentations">
         <div class="body-text">
             <p>You can also review content previous presentations, which provides more information on insider threats and the Entrustify program.</p>
         </div>
-        <div class="col-4">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="slide-selection">
+            <h2 id="january">Town Hall January 2025</h2>
+            <h2 id="may">Lunch and Learn May 2025</h2>
         </div>
-
+        <!-- Horizontal Carousel with 4 viewable slides-->
+        <div class="col-4 active" id="january-carousel">
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_1.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_2.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_3.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_4.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_5.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_6.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_7.png" alt=""></div>
+            <div><img src="./January/REY249121_TownHallDeck_for interactive_Page_8.png" alt=""></div>
+        </div>
+        <div class="col-4" id="may-carousel">
+            <div><img src="./May/Slide1.jpg" alt=""></div>
+            <div><img src="./May/Slide2.jpg" alt=""></div>
+            <div><img src="./May/Slide3.jpg" alt=""></div>
+            <div><img src="./May/Slide4.jpg" alt=""></div>
+            <div><img src="./May/Slide5.jpg" alt=""></div>
+            <div><img src="./May/Slide6.jpg" alt=""></div>
+            <div><img src="./May/Slide7.jpg" alt=""></div>
+            <div><img src="./May/Slide8.jpg" alt=""></div>
+        </div>
     </div>
-
-    <style>
-        * {
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            max-width: 1500px;
-            margin: auto;
-            scroll-behavior: smooth;
-        }
-        .video-container {
-            width: 60%;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-        .container {
-            border-radius: 20px;
-            overflow: hidden;
-            margin: 5vh 10px 5vh 10px;
-        }
-        
-        .title {
-            background-color: #09263b;
-            display: flex;
-            flex-direction: row;
-            height: 90vh;
-        }
-        #program {
-            background-color: #f1efe9;
-            display: flex;
-            flex-direction: row;
-            padding: 2em;
-            
-            color: #09263b;
-        }
-        #program>iframe {
-            width: 60%;
-            min-height: 400px;
-            border-radius: 20px;
-        }
-
-        #infographic {
-            background-color: #005a81;
-            display: flex;
-            flex-direction: row;
-            padding: 2em;
-            
-            color: #fff;
-        }
-        #infographic>img {
-            width: 60%;
-            min-height: 400px;
-            border-radius: 20px;
-            object-fit: contain;
-        }
-
-        #specific-insider-threats {
-            background-color: #09263b;
-            display: flex;
-            flex-direction: column;
-            padding: 3em 2em;
-            color: #fff;
-        }
-        .col-3 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 350px;
-            gap: 10px;
-            width: 80%;
-            margin: auto;
-        }
-        .col-3>div {
-            border-radius: 20px;
-            border: 2px solid #fff;
-        }
-        .col-4 {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 350px;
-            gap: 10px;
-            width: 80%;
-            margin: auto;
-        }
-        .col-4>div {
-            border-radius: 20px;
-            border: 2px solid #09263b;
-        }
-        
-        #presentations {
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            padding: 3em 2em;
-            color: #09263b;
-        }
-
-        .menu-grid {
-            width: 60%;
-            display: grid;
-            grid-template-columns: .75fr repeat(3, 1fr);
-            grid-template-rows: 100px repeat(3, 1fr) 100px;
-            border-radius: 20px;
-            background-image: url(./Screenshot\ 2025-06-04\ at\ 3.27.22\ PM.png);
-            background-size: cover;
-            background-position: left top;
-            position: relative;
-            gap: 5px;
-        }
-        .menu-grid>div, .menu-grid>a {
-            border-right:#09263b 5px solid;
-            border-radius: 20px 0;
-            overflow: hidden;
-            color: #09263b;
-            text-decoration: none;
-            border-left:#09263b 5px solid;
-            background-clip: padding-box;
-        }
-        .menu-grid>a {
-            background: #fff;
-        }
-
-        .menu-grid>div:nth-child(4n-3), .menu-grid>a:nth-child(4n-3) {
-            border-left:#09263b 0px solid;
-        }
-        .menu-grid>div:nth-child(4n), .menu-grid>a:nth-child(4n) {
-            border-right:#09263b 0px solid;
-        }
-        .menu-grid>div:nth-child(-n + 16 ),  .menu-grid>a {    
-            border-bottom:#09263b 5px solid;
-        }
-        .menu-grid>div:nth-child(n + 4), .menu-grid>a {
-            border-top:#09263b 5px solid;
-        }
-        .nav>img {
-            filter: brightness(0) invert(1);
-        }
-        .nav-infographic{
-            padding: 1rem;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: #09263b;
-        }
-        .nav-infographic>h2, .nav-program>h2, .nav-presentations>h2, .nav-insider-threats>h2 {
-            text-transform: uppercase;
-            font-size: 1.25em
-        }
-
-        .nav-infographic:hover {
-            background-color: #005a81;
-            color: #fff;
-        }
-
-        
-        .nav-infographic{
-            padding: 1rem;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: #09263b;
-        }
-
-        .nav-infographic:hover {
-            background-color: #005a81;
-            color: #fff;
-        }
-
-        
-        .nav-program{
-            padding: 1rem;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: #09263b;
-        }
-
-        .nav-program:hover {
-            background-color: #48a5af;
-        }
-
-        
-        .nav-presentations{
-            padding: 1rem;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: #09263b;
-        }
-
-        .nav-presentations:hover {
-            background-color: #48a5af;
-        }
-
-        
-        .nav-insider-threats{
-            padding: 1rem;
-            height: 100%;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: #09263b;
-        }
-
-        .nav-insider-threats:hover {
-            background-color: #09263b;
-            color: #fff;
-        }
-
-
-        .intro {
-            width: 20%;
-            padding: 1rem;
-            margin: 0 auto;
-        }
-        .intro>h1, .intro>p {
-            color: #fff;
-        }
-        .intro>h1 {
-            text-transform: uppercase;
-            border-bottom: 3px solid #48a5af;
-            border-inline-start: 15px;
-        }
-
-        #program>.body-text{
-            width: 20%;
-            padding: 1rem;
-            margin: auto;
-        }
-
-        #infographic>.body-text {
-            width: 25%;
-            padding: 1rem;
-            margin: 0 auto;
-        }
-        #specific-insider-threats>.body-text, #presentations>.body-text {
-            width: 60%;
-            padding: 1rem;
-            margin: auto;
-            text-align: center;
-        }
-        .body-text>h1 {
-            text-transform: uppercase;
-        }
-    </style>
 </body>
+<script src="./script.js"></script>
 </html>
