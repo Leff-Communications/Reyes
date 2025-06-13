@@ -16,9 +16,9 @@
             <div></div>
             <div></div>
             <a href="#infographic">
-            <div class="nav-infographic">
+            <div class="nav nav-infographic">
                 
-                    <img src="./open.png" alt="open symbol" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px 0;"></img>
+                    <img src="./open.png" alt="open symbol" style="max-width: 20px;min-height: 20px; object-fit: contain;"></img>
                     <h2>Infographic</h2>
                 </div>
                     
@@ -28,16 +28,16 @@
 
             <div></div>
             <a href="#program">
-            <div class="nav-program">
+            <div class="nav nav-program">
                 
-                    <img src="./open.png" alt="open symbol" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px 0;"></img>
+                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Entrustify Program</h2>
                 </div>
             </a>
             <a href="#presentations">
-            <div class="nav-presentations">
+            <div class="nav nav-presentations">
                 
-                    <img src="./open.png" alt="open symbol" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px 0;"></img>
+                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Presentations</h2>
                 </div>
             </a>
@@ -45,9 +45,9 @@
 
             <div></div>
             <a href="#specific-insider-threats">
-            <div class="nav-insider-threats">
+            <div class="nav nav-insider-threats">
                 
-                    <img src="./open.png" alt="Entruopen symboltify" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px 0;"></img>
+                    <img src="./open.png" alt="open symbol" style="max-width: 20px; min-height: 20px; object-fit: contain;"></img>
                     <h2>Specific Insider Threats</h2>
                 </div>
             </a>
@@ -63,7 +63,7 @@
             <h1>Entrustify</h1>
             <p>Together we're strengthening our work through better support and training and education on insider threats—a program called Entrustify.</p>
             <p>We will continue adding content to this interactive for you, so you can access resources and guidance any time. Experience videos, past presentations, and more to help you get Entrustified and continue playing a powerful role at Reyes Holdings.</p>
-            <img class="chevron" src="./chevron.png" alt="Chevron">
+            <img class="chevron" src="./chevron.png" style="max-width: 20px; min-height: 20px; object-fit: contain;" alt="Chevron">
         </div>
     </div>
     
@@ -245,6 +245,9 @@
         }
         .menu-grid>div:nth-child(n + 4), .menu-grid>a {
             border-top:#09263b 5px solid;
+        }
+        .nav>img {
+            filter: brightness(0) invert(1);
         }
         .nav-infographic{
             padding: 1rem;
