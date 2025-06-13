@@ -215,17 +215,36 @@
             grid-template-columns: .75fr repeat(3, 1fr);
             grid-template-rows: 100px repeat(3, 1fr) 100px;
             border-radius: 20px;
+            background-image: url(./Screenshot\ 2025-06-04\ at\ 3.27.22\ PM.png);
+            background-size: cover;
+            background-position: left top;
+            position: relative;
+            gap: 5px;
         }
         .menu-grid>div, .menu-grid>a {
-            background-color: #56787c;
-            border-right:#09263b 10px solid;
+            border-right:#09263b 5px solid;
             border-radius: 20px 0;
             overflow: hidden;
             color: #09263b;
             text-decoration: none;
+            border-left:#09263b 5px solid;
+            background-clip: padding-box;
+        }
+        .menu-grid>a {
+            background: #fff;
+        }
+
+        .menu-grid>div:nth-child(4n-3), .menu-grid>a:nth-child(4n-3) {
+            border-left:#09263b 0px solid;
+        }
+        .menu-grid>div:nth-child(4n), .menu-grid>a:nth-child(4n) {
+            border-right:#09263b 0px solid;
         }
         .menu-grid>div:nth-child(-n + 16 ),  .menu-grid>a {    
-            border-bottom:#09263b 10px solid;
+            border-bottom:#09263b 5px solid;
+        }
+        .menu-grid>div:nth-child(n + 4), .menu-grid>a {
+            border-top:#09263b 5px solid;
         }
         .nav-infographic{
             padding: 1rem;
