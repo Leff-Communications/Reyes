@@ -124,7 +124,7 @@
         }
         .col-3 {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 350px;
             gap: 10px;
             width: 80%;
@@ -133,7 +133,6 @@
         .col-3>div {
             cursor: pointer;
             border-radius: 20px;
-            border: 2px solid #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -143,14 +142,16 @@
 
         .col-3>div:hover {
             background: linear-gradient(to left, #005a81, #48a5af);
+            border: 2px solid #fff;
         }
         .column-active {
             background: linear-gradient(to left, #005a81, #48a5af) !important;
+            border: 2px solid #fff;
         }
 
         .col-3>div>img {
-            max-width: 150px;
-            width: 50%;
+            width: 100%;
+            height: 100%;
             object-fit: contain;
         }
         #video-modal {
