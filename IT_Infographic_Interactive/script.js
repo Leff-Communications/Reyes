@@ -1,4 +1,4 @@
-var videoThumbnails = document.querySelectorAll('.col-3 div');
+var videoThumbnails = document.querySelectorAll('.col-3 div.video-thumbnail');
 
                 videoThumbnails.forEach(function(thumbnail) {
                     thumbnail.addEventListener('click', function() {
