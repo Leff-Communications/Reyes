@@ -38,8 +38,7 @@ document.querySelectorAll('.slide-selection h2').forEach(h2 => {
                         if (img) {
                             const fullImage = document.createElement('img');
                             fullImage.src = img.src;
-                            fullImage.style.width = '90%';
-                            fullImage.style.height = 'auto';
+                            fullImage.style.height = '100%';
                             fullImage.style.borderRadius = '20px';
                             fullImage.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
                             fullImage.style.objectFit = 'contain';
