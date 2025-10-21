@@ -130,7 +130,7 @@
             width: 80%;
             margin: auto;
         }
-        .col-3>div {
+        .col-3>div.video-thumbnail {
             cursor: pointer;
             border-radius: 20px 0px;
             display: flex;
@@ -140,7 +140,7 @@
             background: linear-gradient(to left, #09263b, #005a81);
         }
 
-        .col-3>div:hover {
+        .col-3>div.video-thumbnail:hover {
             background: linear-gradient(to left, #005a81, #48a5af);
             border: 2px solid #fff;
         }
