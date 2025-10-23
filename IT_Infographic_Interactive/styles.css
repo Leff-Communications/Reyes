@@ -338,10 +338,25 @@
             margin: auto;
         }
 
+        #news>.body-text{
+            width: 25%;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+        #news {
+            background-color: #48a5af;
+            display: flex;
+            flex-direction: row;
+            padding: 2em;
+            
+            color: #fff;
+        }
+
         #infographic>.body-text {
             width: 25%;
             padding: 1rem;
             margin: 0 auto;
+            
         }
         #specific-insider-threats>.body-text, #presentations>.body-text {
             width: 60%;
