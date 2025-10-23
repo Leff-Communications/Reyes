@@ -348,6 +348,10 @@
             padding: 2em;
             color: #fff;
         }
+        #news>.body-text>a {
+            color: #fff;
+            text-decoration: underline;
+        }
 
         #infographic>.body-text {
             width: 25%;
