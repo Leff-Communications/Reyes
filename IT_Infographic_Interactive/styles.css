@@ -339,9 +339,9 @@
         }
 
         #news>.body-text{
-            width: 60%;
+            width: 80%;
             padding: 1rem;
-            margin: 0 auto;
+            margin: 0 auto 0 0;
         }
         #news {
             background-color: #005a81;
