@@ -339,6 +339,7 @@
         }
 
         #news>.body-text{
+            width: 60%;
             padding: 1rem;
             margin: 0 auto;
         }
